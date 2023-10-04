@@ -1,9 +1,15 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class Program
+namespace Project2
 {
-    static void Main()
+    internal class Program
     {
+     static void Main(string[] args)
+     {
         //Part 1
         int x = 42;
         object boxObject = x;
@@ -14,6 +20,8 @@ class Program
         object boxedObject = doubleValue;
         double unboxedValue = (double)boxedObject;
         Console.WriteLine("Value of \"unboxedValue\": " + unboxedValue);
+     }
+        
     }
     
 }
